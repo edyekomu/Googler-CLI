@@ -16,10 +16,14 @@ def load_api_key():
     else:
         return None
 
-def google_search(query, api_key, num=5):
+def google_search(query, api_key, num):
     endpoint = "https://serpapi.com/search" # query SerpAPI endpoint
+
+    if not num:
+        num = 5 # default value
+        
     params = {
-        "engine":"google",
+        "engine":"google_light",
         "q" : query,
         "num" : num,
         "api_key" : api_key,
