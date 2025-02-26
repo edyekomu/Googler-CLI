@@ -15,7 +15,7 @@ A simple google search command line tool that calls **SerpAPI**
 ## Features
 `-h, --help: show this help message and exit`  
 
-`-q QUE[RY, --query [QUERY]: Search query`  
+`-q [QUERY], --query [QUERY]: Search query`  
 
 `-n [NUM], --num [NUM]: Number of results shown. Default is 5`  
 
