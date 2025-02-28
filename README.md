@@ -3,7 +3,7 @@
 A simple google search command line tool that calls **SerpAPI**
 
 ## Installation
-1. `git clone https://github.com/edyekomu/Googler-CLI.git`
+1. `git clone https://github.com/edyekomu/Googler-CLI`
 2. `pip install -r requirements.txt`
 
 ## Usage
