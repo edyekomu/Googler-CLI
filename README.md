@@ -9,7 +9,7 @@ A simple google search command line tool that calls **SerpAPI**
 ## Usage
 1. **Set API key**  
 `python googler.py --set-key [YOUR API KEY]`
-2. **Query SerpAPI**
+2. **Query SerpAPI**  
 `python googler.py -q [query]`
 
 ## Features
